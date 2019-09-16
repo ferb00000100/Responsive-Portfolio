@@ -1,0 +1,64 @@
+/* portfolio formatting */
+
+.boxes {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-color: #4aaaa5;
+    border-style: solid;
+}
+
+.banner1{
+    margin-top: 100px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.banner2{
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+/* portfolio background images */
+
+.family {
+    background: url("../images/fam.png");
+}
+.music {
+    background: url("../images/redrocks.png");
+}
+.sports {
+    background: url("../images/avs.png");
+}
+.cycling {
+    background: url("../images/cycling.png");
+}
+.crossfit {
+    background: url("../images/crossfit.png");
+}
+.snowboarding {
+    background: url("../images/snowboarding.png");
+}
+.technology{
+    background: url("../images/tech.png");
+}
+.family2 {
+    background: url("../images/family2.png");
+}
+
+@media screen and (min-width:0px) and (max-width: 1024px) {
+
+    .boxes {
+     margin-left: 20%;
+      }
+}
