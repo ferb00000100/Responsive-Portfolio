@@ -1,0 +1,162 @@
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*background-color: #ffffff;*/
+    /*background-color: brown;*/
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.title{
+    float: left;
+    /*vertical-align: middle;*/
+    text-align: center;
+    line-height: 75px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 80px;
+    width: 250px;
+    margin: 40px auto;
+}
+nav {
+    float: right;
+    margin: 40px auto;
+    height: 80px;
+    width: 250px;
+    line-height: 80px;
+}
+
+.links {
+    text-decoration: none;
+    color: #777777;
+}
+img {
+    margin: 10px;
+    float: left;
+    height: 200px;
+    width: 150px;
+}
+
+#container {
+    height: 100%;
+    /*width: 100%;*/
+    /*margin: 50px auto;*/
+    background: url("../images/qbkls.png");
+
+}
+article {
+    clear: both;
+    overflow: scroll;
+    border-style: solid;
+    border-color: #dddddd;
+    /*background-color: darkblue;*/
+    background-color: #ffffff;
+    position: relative;
+    top: -30px;
+    height:550px;
+    width: 960px;
+    margin: auto;
+}
+
+h2 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    width: 250px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+footer {
+    display: block;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 50px;
+    border-top: thick solid #4aaaa5;
+    background-color: #666666;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width:0px) and (max-width: 1024px)  {
+    header {
+        width: 100%
+    }
+    nav {
+        line-height: 40px;
+    }
+
+    #container {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+        height: 100%;
+        border-style: none;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    p {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    nav {
+        margin: auto;
+    }
+    .title {
+        margin: auto;
+    }
+    article {
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+    p {
+        padding: 10px;
+    }
+
+}
+@media screen and (min-height: 825px) {
+
+        article {
+            height: 85%;
+        }
+    #container {
+        height :85%;
+        background: #ffffff;
+        font-size: 21px;
+    }
+
+    footer {
+        position: fixed;
+    }
+    p {
+        padding: 10px;
+    }
+
+}
