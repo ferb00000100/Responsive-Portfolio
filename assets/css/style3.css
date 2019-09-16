@@ -1,0 +1,82 @@
+/* form positioning */
+.border {
+    border-style: dashed;
+    border-color: darkgreen;
+    height: 100%;
+}
+
+.contact {
+    clear: both;
+    overflow: scroll;
+    border-style: solid;
+    border-color: #dddddd;
+    /*background-color: darkblue;*/
+    background-color: #ffffff;
+    position: relative;
+    top: -30px;
+    height:550px;
+    width: 960px;
+    margin: auto;
+}
+
+form {
+    margin: 0;
+    color: #777777;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* input field formatting */
+
+input {
+    margin-bottom: 10px;
+}
+
+/* input box formatting */
+
+.inputbox {
+    width: 920px;
+    height: 20px;
+    padding-right: -20px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+
+}
+
+/* message test area formatting */
+
+textarea{
+    letter-spacing: 1px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+    resize: none;
+    width: 900px;
+    padding-right: -20px;
+    height: 200px;
+}
+
+/* button formatting */
+
+button {
+    margin-top: 20px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 125px;
+}
+
+@media screen and (min-width:0px) and (max-width: 1024px) {
+    .contact     {
+        width: 350px;
+    }
+    .inputbox {
+        width: 265px;
+    }
+    textarea {
+        width: 250px;
+    }
+}

@@ -58,7 +58,8 @@
 
 @media screen and (min-width:0px) and (max-width: 1024px) {
 
-    .boxes {
-     margin-left: 20%;
-      }
+    /*.boxes {*/
+    /*    position: relative;*/
+    /*    left: 18%;*/
+    /*  }*/
 }
