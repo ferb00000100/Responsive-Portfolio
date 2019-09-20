@@ -9,8 +9,6 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    /*background-color: #ffffff;*/
-    /*background-color: brown;*/
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -53,17 +51,15 @@ img {
 
 #container {
     height: 100%;
-    /*width: 100%;*/
-    /*margin: 50px auto;*/
     background: url("../images/qbkls.png");
 
 }
+
 article {
     clear: both;
     overflow: scroll;
     border-style: solid;
     border-color: #dddddd;
-    /*background-color: darkblue;*/
     background-color: #ffffff;
     position: relative;
     top: -30px;
@@ -80,6 +76,9 @@ h2 {
     padding-left: 20px;
     margin-bottom: 5px;
 }
+p {
+    padding: 10px
+}
 footer {
     display: block;
     color: #ffffff;
@@ -94,69 +93,205 @@ footer {
     bottom: 0;
     left: 0;
 }
+/*Start of CSS 2 */
 
-@media screen and (min-width:0px) and (max-width: 1024px)  {
-    header {
-        width: 100%
-    }
+
+.boxes {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-color: #4aaaa5;
+    border-style: solid;
+}
+
+.banner1{
+    margin-top: 100px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.banner2{
+    margin-top: 150px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+/* portfolio background images */
+
+.family {
+    background: url("../images/fam.png");
+}
+.music {
+    background: url("../images/redrocks.png");
+}
+.sports {
+    background: url("../images/avs.png");
+}
+.cycling {
+    background: url("../images/cycling.png");
+}
+.crossfit {
+    background: url("../images/crossfit.png");
+}
+.snowboarding {
+    background: url("../images/snowboarding.png");
+}
+.technology{
+    background: url("../images/tech.png");
+}
+.family2 {
+    background: url("../images/family2.png");
+}
+/* End of CSS 2 */
+/* start of CSS 3 */
+.border {
+    border-style: dashed;
+    border-color: darkgreen;
+    height: 100%;
+}
+
+/*.contact {*/
+/*    clear: both;*/
+/*    overflow: scroll;*/
+/*    border-style: solid;*/
+/*    border-color: #dddddd;*/
+/*    background-color: darkblue;*/
+    /*background-color: #ffffff;*/
+    /*position: relative;*/
+    /*top: -30px;*/
+    /*height:550px;*/
+    /*width: 960px;*/
+    /*margin: auto;*/
+/*}*/
+
+form {
+    margin: 0;
+    color: #777777;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* input field formatting */
+
+input {
+    margin-bottom: 10px;
+}
+
+/* input box formatting */
+
+.inputbox {
+    width: 920px;
+    height: 20px;
+    padding-right: -20px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+
+}
+
+/* message test area formatting */
+
+textarea{
+    letter-spacing: 1px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+    resize: none;
+    width: 900px;
+    padding-right: -20px;
+    height: 200px;
+}
+
+/* button formatting */
+
+button {
+    margin-top: 20px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 125px;
+}
+
+/* End of CSS3*/
+
+@media screen and (min-width:0px) and (max-width: 510px) {
+
+    header{
+       width: 100%;
+   }
+
     nav {
         line-height: 40px;
+        margin: auto auto auto 28vw;
+        float: left;
+        width: auto;
+    }
+
+    .title {
+        width: 100%;
+        margin: auto;
     }
 
     #container {
         width: 100%;
-    }
-    article {
-        width: 100%;
         height: 100%;
-        border-style: none;
     }
 
-    footer {
-        position: relative;
-    }
-
-    p {
-        padding: 10px;
-    }
-
-}
-
-@media screen and (max-width: 510px) {
-    nav {
-        margin: auto;
-    }
-    .title {
-        margin: auto;
-    }
     article {
-        width: 100%;
+        width: auto;
         height: 100%;
+        margin-bottom: 30px;
     }
 
     form {
-        width: 100%;
+        width: auto;
     }
     p {
         padding: 10px;
     }
 
-}
-@media screen and (min-height: 825px) {
-
-        article {
-            height: 85%;
-        }
-    #container {
-        height :85%;
-        background: #ffffff;
-        font-size: 21px;
-    }
-
-    footer {
-        position: fixed;
-    }
-    p {
-        padding: 10px;
+    .boxes {
+        margin-left: 25vw;
     }
 }
+
+/*@media screen and (min-width:510px) and (max-width: 1024px) {*/
+/*    header {*/
+/*        width: 100%*/
+/*    }*/
+/**/
+/*    #container {*/
+/*        width: 100%;*/
+/*    }*/
+/**/
+/*    article {*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*        border-style: none;*/
+/*        margin-bottom: 10px;*/
+/*    }*/
+/**/
+/*    footer {*/
+/*        position: fixed;*/
+/*    }*/
+/**/
+/*    .links {*/
+/*        font-size: 20px;*/
+/*    }*/
+/**/
+/*    p {*/
+/*        font-size: 25px;*/
+/*        padding: 10px;*/
+/*    }*/
+/*}*/

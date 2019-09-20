@@ -56,10 +56,9 @@
     background: url("../images/family2.png");
 }
 
-@media screen and (min-width:0px) and (max-width: 1024px) {
-
-    /*.boxes {*/
-    /*    position: relative;*/
-    /*    left: 18%;*/
-    /*  }*/
-}
+/*@media screen and (min-width:0px) and (max-width: 510px) {*/
+/*    .boxes {*/
+/*        margin-left: 18vw;*/
+/*      }*/
+/**/
+/*}*/
