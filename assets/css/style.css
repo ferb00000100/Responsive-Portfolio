@@ -19,9 +19,12 @@ header {
     margin: 0 auto;
 }
 
+.portfolio {
+    margin: auto;
+}
+
 .title{
     float: left;
-    /*vertical-align: middle;*/
     text-align: center;
     line-height: 75px;
     background-color: #4aaaa5;
@@ -42,6 +45,7 @@ nav {
     text-decoration: none;
     color: #777777;
 }
+
 img {
     margin: 10px;
     float: left;
@@ -76,9 +80,11 @@ h2 {
     padding-left: 20px;
     margin-bottom: 5px;
 }
+
 p {
     padding: 10px
 }
+
 footer {
     display: block;
     color: #ffffff;
@@ -93,12 +99,11 @@ footer {
     bottom: 0;
     left: 0;
 }
-/*Start of CSS 2 */
-
 
 .boxes {
     float: left;
     margin: 10px;
+    margin-left: 21px;
     height: 200px;
     width: 200px;
     border-color: #4aaaa5;
@@ -125,8 +130,6 @@ footer {
     line-height: 25px;
 }
 
-/* portfolio background images */
-
 .family {
     background: url("../images/fam.png");
 }
@@ -151,27 +154,12 @@ footer {
 .family2 {
     background: url("../images/family2.png");
 }
-/* End of CSS 2 */
-/* start of CSS 3 */
+
 .border {
     border-style: dashed;
     border-color: darkgreen;
     height: 100%;
 }
-
-/*.contact {*/
-/*    clear: both;*/
-/*    overflow: scroll;*/
-/*    border-style: solid;*/
-/*    border-color: #dddddd;*/
-/*    background-color: darkblue;*/
-    /*background-color: #ffffff;*/
-    /*position: relative;*/
-    /*top: -30px;*/
-    /*height:550px;*/
-    /*width: 960px;*/
-    /*margin: auto;*/
-/*}*/
 
 form {
     margin: 0;
@@ -180,13 +168,9 @@ form {
     padding-left: 20px;
 }
 
-/* input field formatting */
-
 input {
     margin-bottom: 10px;
 }
-
-/* input box formatting */
 
 .inputbox {
     width: 920px;
@@ -196,8 +180,6 @@ input {
     border: 1px solid #dddddd;
 
 }
-
-/* message test area formatting */
 
 textarea{
     letter-spacing: 1px;
@@ -210,8 +192,6 @@ textarea{
     height: 200px;
 }
 
-/* button formatting */
-
 button {
     margin-top: 20px;
     vertical-align: center;
@@ -223,18 +203,16 @@ button {
     width: 125px;
 }
 
-/* End of CSS3*/
-
-@media screen and (min-width:0px) and (max-width: 510px) {
+@media screen and (max-width: 750px) {
 
     header{
-       width: 100%;
-   }
+        width: 100%;
+    }
 
     nav {
         line-height: 40px;
-        margin: auto auto auto 28vw;
-        float: left;
+        margin: auto 35vw auto auto;
+        /*float: left;*/
         width: auto;
     }
 
@@ -264,34 +242,107 @@ button {
     .boxes {
         margin-left: 25vw;
     }
+
+    .inputbox {
+        width: 80%;
+    }
+
+    textarea{
+        width: 77%;
+    }
+
+    .portfolio {
+        margin-left: 17vw;
+
+    }
+
 }
 
-/*@media screen and (min-width:510px) and (max-width: 1024px) {*/
-/*    header {*/
-/*        width: 100%*/
-/*    }*/
-/**/
-/*    #container {*/
-/*        width: 100%;*/
-/*    }*/
-/**/
-/*    article {*/
-/*        width: 100%;*/
-/*        height: 100%;*/
-/*        border-style: none;*/
-/*        margin-bottom: 10px;*/
-/*    }*/
-/**/
-/*    footer {*/
-/*        position: fixed;*/
-/*    }*/
-/**/
-/*    .links {*/
-/*        font-size: 20px;*/
-/*    }*/
-/**/
-/*    p {*/
-/*        font-size: 25px;*/
-/*        padding: 10px;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 1024px) {
+
+    header{
+        width: 100%;
+    }
+
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+
+    article {
+        width: auto;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    form {
+        width: auto;
+    }
+    p {
+        padding: 10px;
+    }
+
+    .boxes {
+        margin-left: 4vw;
+    }
+
+    .inputbox {
+        width: 92%;
+    }
+
+    textarea{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+
+    header{
+        width: 100%;
+    }
+
+    nav {
+        line-height: 40px;
+        margin: auto auto auto 25vw;
+        float: left;
+        width: auto;
+    }
+
+    .title {
+        width: 100%;
+        margin: auto;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+
+    article {
+        width: auto;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    form {
+        width: auto;
+    }
+    p {
+        padding: 10px;
+    }
+
+    .inputbox {
+        width: 90%;
+    }
+
+    textarea{
+        width: 85%;
+    }
+
+    .portfolio {
+        margin-left: 17vw;
+
+    }
+}
