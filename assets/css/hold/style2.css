@@ -32,28 +32,28 @@
 /* portfolio background images */
 
 .family {
-    background: url("../images/fam.png");
+    background: url("../../images/fam.png");
 }
 .music {
-    background: url("../images/redrocks.png");
+    background: url("../../images/redrocks.png");
 }
 .sports {
-    background: url("../images/avs.png");
+    background: url("../../images/avs.png");
 }
 .cycling {
-    background: url("../images/cycling.png");
+    background: url("../../images/cycling.png");
 }
 .crossfit {
-    background: url("../images/crossfit.png");
+    background: url("../../images/crossfit.png");
 }
 .snowboarding {
-    background: url("../images/snowboarding.png");
+    background: url("../../images/snowboarding.png");
 }
 .technology{
-    background: url("../images/tech.png");
+    background: url("../../images/tech.png");
 }
 .family2 {
-    background: url("../images/family2.png");
+    background: url("../../images/family2.png");
 }
 
 /*@media screen and (min-width:0px) and (max-width: 510px) {*/
